@@ -30,8 +30,8 @@ while (<$fh>) {
 }
 
 #
-# For the second solution, we tick every second, move the reindeer
-# (if they aren't flying), and award points.
+# We tick every second, move the reindeer (if they aren't flying),
+# and award points.
 #
 for (my $second = 0; $second < $RACE_TIME; $second ++) {
     foreach my $reindeer (@$reindeer) {

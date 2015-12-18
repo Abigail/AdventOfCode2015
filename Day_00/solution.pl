@@ -10,8 +10,8 @@ use autodie;
 my $input = $ARGV [0] // "input";
 open my $fh, "<", $input;
 
-my $solution1 = "";
-my $solution2 = "";
+my $solution1 = 0;
+my $solution2 = 0;
 
 say "Solution of part1: $solution1";
 say "Solution of part2: $solution2";
